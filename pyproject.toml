@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FicHubAPI"
+version = "0.0.1"
+authors = [
+    { name="Mikowmer", email="mikowmer@gmail.com" },
+]
+description = "A Python Wrapper for the FicHub API"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Licence :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+]
+license = {file = "LICENSE"}
+dependencies = [
+    "requests"
+]
+
+[project.urls]
+homepage = "https://github.com/Mikowmer/FicHubAPI"
+"Bug Tracker" = "https://github.com/Mikowmer/FicHubAPI/issues"
+repository = "https://github.com/Mikowmer/FicHubAPI"
+# PLACEHOLDER: documentation = "https://github.com/Mikowmer/FicHubAPI"
+# PLACEHOLDER: changelog = "https://github.com/Mikowmer/FicHubAPI"
